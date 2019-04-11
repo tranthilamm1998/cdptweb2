@@ -1,0 +1,370 @@
+
+.type-705 {
+    @background-color: #ebebeb;
+    @float: left;
+    @colormenu: #999;
+    @padding: 0;
+    @list-style: none;
+    @backgroundcolor: #AFAFAF;
+    @transition: all .2s ease-in-out;
+    @color: #ffffff;
+    @position: absolute;
+    @display: none;
+    @transition3: all .3s ease-in-out;
+    @padding10: 10px;
+    @floatr: right;
+    @cursor: pointer;
+    @max-width: 100%;
+    @transition5: all .5s ease-in-out;
+    @color9: #b9b9b9;
+    @font-weight: normal;
+    @displayb: block;
+    @margin-left: 5px;
+    @padding35: 3px 5px;
+    @displayit: inline-table;
+    @color-hover: #AFAFAF;
+    @padding810: 8px 10px;
+    @margin-left10: -10px;
+    @left: 10px;
+
+
+    .color-tra{
+        color: @colormenu;
+
+    }
+
+    .topheader {
+        background-color: @background-color;
+        nav.topmenu-left {
+            ul.top-parent-menu {
+                float: @float;
+                padding: 5px 0;
+                /*color: @colormenu;*/
+                li {
+                    float: @float;
+                   /* margin: 0;
+                    padding: @padding;*/
+                    list-style: @list-style;
+                    a {
+                        color: @colormenu;
+                        padding: 8px 20px;
+                        /*padding-bottom: 16px;*/
+                        /*transition: @transition;
+                        text-align: center;*/
+                    }
+                    a:hover {
+                        background-color: @backgroundcolor;
+                        color: @color;
+                    }
+                    ul.top-sub-menu {
+                        background-color: @backgroundcolor;
+                        position: @position;
+                       /* top: 38px;*/
+                        display: @display;
+                        li.dropdown {
+                            float: none;
+                            padding: 10px 7px;
+                           /* text-align: left;*/
+
+                            /*transition: @transition3;*/
+                            .sub-menu {
+                                color: @color;
+                                margin-left: -37px;
+                                padding: @padding10;
+                            }
+                        }
+                    }
+                }
+                li:hover {
+                    .active {
+                        background-color: @backgroundcolor;
+                        color: @color;
+                    }
+                    ul.top-sub-menu {
+                        display: @displayb;
+                        /*transition: @transition3;*/
+                        color: @color;
+                    }
+                }
+                .sign-in {
+                    .color-tra;
+                    margin-left: 10px;
+                }
+                .register {
+                    .color-tra;
+                }
+                .catch:hover {
+                    color: @color-hover;
+                    transition: @transition;
+                }
+            }
+        }
+        nav.topmenu-right {
+            ul {
+                margin-right: -15px;
+                float: @floatr;
+                cursor: @cursor;
+                li {
+                    float: @float;
+                    margin: 0 20px;
+                    /*padding: @padding;*/
+                    list-style: @list-style;
+                    .show-countries {
+                        padding: @padding810;
+                        img {
+                            max-width: @max-width;
+                            margin-bottom: 3px;
+                        }
+                    }
+                    .hide-countries {
+                        position: @position;
+                        /*left: @left;*/
+                        background-color: #ebebeb;
+                        /*margin-left: @margin-left10;
+                        padding-right: 9px;*/
+                       /* display: @displayit;*/
+                        display: @display;
+                        .countries {
+                            margin-left: @margin-left;
+                            padding: @padding35;
+                            transition: @transition;
+                        }
+                        .countries:hover {
+                            background-color: @backgroundcolor;
+                            transition: @transition;
+                            .languege {
+                                color: @colormenu;
+                            }
+                        }
+                    }
+                    .show-money {
+                        padding: @padding810;
+                    }
+                    .hide-money {
+                        position: @position;
+                        /*left: @left;*/
+                        background-color: @background-color;
+                       /* margin-left: @margin-left10;
+                        display: @displayit;*/
+                        display: @display;
+                        .money {
+                            margin-left: @margin-left;
+                            padding: 3px 5px;
+                            transition: @transition;
+                            a {
+                                padding: 5px 6px;
+                            }
+                            a:hover {
+                                background-color: @backgroundcolor;
+                                color: @colormenu;
+                            }
+                        }
+                    }
+                    a {
+                        color: #6d6d6d;
+                    }
+                }
+                li:hover {
+                    background-color: #7b7975;
+                    .show-countries {
+                        .languege-en {
+                            color: @colormenu;
+                            transition: @transition;
+                        }
+                    }
+                    .show-money {
+                        .money-active {
+                            color: @color;
+                        }
+                    }
+                    .hide-countries, .hide-money {
+                        display: @displayb;
+                    }
+                }
+            }
+        }
+    }
+        .topheader2 {
+            padding: 40px 0;
+            .shopping-cart {
+                margin-top: 25px;
+                float: @float;
+                padding-left: 20px;
+                .cart {
+                    padding: @padding10;
+                    color: @color9;
+                    border: 1px solid #e7e2e2;
+
+                    padding-right: 80px;
+
+                    .fa-cart {
+                        color: red;
+                    }
+                }
+                .cart:hover {
+                    background-color: #e0e0e0;
+                    color: #8b8b8b;
+
+                }
+            }
+            .logo {
+                float: @float;
+                img {
+
+                    margin-left: 100%;
+                }
+            }
+            .search {
+                float: @floatr;
+                margin-top: 18px;
+                #text-search {
+                    padding: 6px;
+                }
+                .fa-search {
+                    padding: 9px;
+                    cursor: @cursor;
+                    font-size: 18px;
+                    color: @color9;
+
+                    margin-left: -40px;
+                }
+                .fa-search:hover {
+                    background-color: @backgroundcolor;
+                    color: @color;
+
+                }
+            }
+        }
+
+
+
+    @media screen and (max-width: 446px) {
+
+        .topheader {
+            background-color: @background-color;
+            nav.topmenu-left {
+                ul.top-parent-menu {
+                    font-size: 12px;
+                    margin-left: -11px;
+                    padding: 5px 0;
+
+
+                }
+            }
+            nav.topmenu-right {
+                ul {
+                    float: left;
+                    margin-left: -60px;
+                    cursor: @cursor;
+                    li {
+                        float: @float;
+                        margin: 0 20px;
+                        /*padding: @padding;*/
+                        list-style: @list-style;
+                        .show-countries {
+                            padding: @padding810;
+                            img {
+                                max-width: @max-width;
+                                margin-bottom: 3px;
+                            }
+                        }
+                        .show-money{
+                            padding: 8px 10px;
+                            margin-left: -35px;
+                        }
+
+
+
+
+                    }
+
+                }
+            }
+
+        }
+
+        .topheader2{
+            .shopping-cart{
+                margin-top: 50px;
+                padding-left: 9px;
+            }
+            .logo{
+                margin-top: -100px;
+                img{
+                    margin-left: 50%;
+                    width: 90%;
+                }
+
+            }
+            .search{
+                float: right;
+                margin-top: -30px;
+            }
+        }
+    }
+
+    @media screen and (max-width: 455px) {
+
+        .topheader {
+            background-color: @background-color;
+            nav.topmenu-left {
+                ul.top-parent-menu {
+                    font-size: 12px;
+                    margin-left: -11px;
+                    padding: 5px 0;
+
+
+                }
+            }
+            nav.topmenu-right {
+                ul {
+                    float: left;
+                    margin-left: -60px;
+                    cursor: @cursor;
+                    li {
+                        float: @float;
+                        margin: 0 20px;
+                        /*padding: @padding;*/
+                        list-style: @list-style;
+                        .show-countries {
+                            padding: @padding810;
+                            img {
+                                max-width: @max-width;
+                                margin-bottom: 3px;
+                            }
+                        }
+                        .show-money{
+                            padding: 8px 10px;
+                            margin-left: -35px;
+                        }
+
+
+
+
+                    }
+
+                }
+            }
+
+        }
+
+        .topheader2{
+            .shopping-cart{
+                margin-top: 50px;
+                padding-left: 9px;
+            }
+            .logo{
+                margin-top: -100px;
+                img{
+                    margin-left: 50%;
+                    width: 90%;
+                }
+
+            }
+            .search{
+                float: right;
+                margin-top: -30px;
+            }
+        }
+    }
+}
