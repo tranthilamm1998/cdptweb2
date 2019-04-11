@@ -1,0 +1,120 @@
+.type-36 .header {
+  background: #e5e5e5;
+}
+.type-36 h2 {
+  font-size: 18px;
+}
+.type-36 .header_contai {
+  text-align: center;
+}
+.type-36 .header_contai2 {
+  text-align: center;
+}
+.type-36 .header_contai2 .fa {
+  font-size: 22px;
+  margin-right: 5px;
+  color: #ff7f00;
+}
+.type-36 .header_contai2 a {
+  padding: 0 10px;
+  color: #000;
+}
+.type-36 .title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.type-36 .title1 .fa-bars {
+  float: left;
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-top: 20px;
+}
+.type-36 .title1 .fa-bars:hover {
+  background: #ff7f00;
+}
+.type-36 .title1 h2 {
+  float: left;
+  border: 1px solid #ccc;
+  padding: 10px 30px;
+}
+.type-36 .type-36 .title2 {
+  margin-left: 246px;
+}
+.type-36 .title2 {
+  text-align: center;
+}
+.type-36 .title2 a {
+  color: #ff7f00;
+}
+.type-36 .title2 h1 {
+  font-size: 57px;
+  color: #2e6da4;
+  margin-top: 5px;
+}
+.type-36 .menu {
+  padding: 12px;
+  background: #e5e5e5;
+}
+.type-36 .menu .home {
+  color: #ff7f00;
+}
+.type-36 .menu ul {
+  list-style: none;
+}
+.type-36 .menu ul li {
+  margin-left: 6%;
+  float: left;
+}
+.type-36 .menu ul li a {
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+}
+.type-36 .menu a:hover {
+  color: #ff7f00;
+}
+@media screen and (max-width: 992px) {
+  .type-36 .menu {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 448px) and (max-width: 484px) {
+  .type-36 .menu ul {
+    padding-left: 5px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .type-36 .menu {
+    width: 100%;
+  }
+  .type-36 .title2 {
+    margin-top: -70px;
+    float: right;
+  }
+  .type-36 .menu ul li a {
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    margin-left: -10px;
+  }
+}
+@media screen and (max-width: 446px) {
+  .type-36 .menu ul {
+    padding-left: 0px;
+  }
+  .type-36 .menu ul li {
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .type-36 .header_contai2 {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .type-36 .title2 {
+    margin-top: -70px;
+    float: right;
+  }
+}
