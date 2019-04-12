@@ -1,0 +1,177 @@
+.type-556 .content {
+  width: 100%;
+  background: #EBEBEB;
+}
+.type-556 .content .cmenu {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+}
+.type-556 .content .cmenu .navselect:first-child ul,
+.type-556 .content .cmenu .navselect:last-child ul {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  height: 100%;
+}
+.type-556 .content .cmenu .navselect:first-child ul li,
+.type-556 .content .cmenu .navselect:last-child ul li {
+  list-style: none;
+  padding: 0 15px;
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+.type-556 .content .cmenu .navselect:first-child ul li .title a,
+.type-556 .content .cmenu .navselect:last-child ul li .title a {
+  line-height: 50px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.type-556 .content .cmenu .navselect:first-child ul li .title span,
+.type-556 .content .cmenu .navselect:last-child ul li .title span {
+  line-height: 50px;
+  color: #fff;
+  font-size: 13px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.type-556 .content .cmenu .navselect:first-child ul li .sir,
+.type-556 .content .cmenu .navselect:last-child ul li .sir {
+  display: flex;
+}
+.type-556 .content .cmenu .navselect:first-child ul li .context,
+.type-556 .content .cmenu .navselect:last-child ul li .context {
+  width: auto;
+  height: auto;
+  min-width: 150px;
+  padding: 15px;
+  margin: 0;
+  background: #AFAFAF;
+  position: absolute;
+  display: none;
+  z-index: 1;
+}
+.type-556 .content .cmenu .navselect:first-child ul li .cproduct,
+.type-556 .content .cmenu .navselect:last-child ul li .cproduct {
+  padding: 0px;
+}
+.type-556 .content .cmenu .navselect:first-child ul li:hover,
+.type-556 .content .cmenu .navselect:last-child ul li:hover {
+  background: #AFAFAF;
+}
+.type-556 .content .cmenu .navselect:first-child ul li:hover .context,
+.type-556 .content .cmenu .navselect:last-child ul li:hover .context {
+  display: block;
+  top: 50px;
+  left: 0;
+}
+.type-556 .content .cmenu .navselect:first-child {
+  width: 70%;
+  height: 100%;
+}
+.type-556 .content .cmenu .navselect:last-child {
+  width: 30%;
+  height: 100%;
+  text-align: right;
+}
+.type-556 .content .cmenu .navselect:last-child ul li .title a {
+  color: #999;
+}
+.type-556 .content .cmenu .navselect:last-child ul li .context {
+  text-align: left;
+}
+.type-556 .clogo {
+  width: 100%;
+  height: 100px;
+  display: inline-flex;
+}
+.type-556 .clogo .cart {
+  width: 20%;
+  margin-top: 35px;
+}
+.type-556 .clogo .cart a {
+  display: block;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #e7e2e2;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  color: #696767;
+}
+.type-556 .clogo .image {
+  width: 60%;
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.type-556 .clogo .search {
+  margin-top: 35px;
+  width: 20%;
+  position: relative;
+}
+.type-556 .clogo .search input {
+  display: block;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #e7e2e2;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  color: #696767;
+}
+.type-556 .clogo .search i {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 7px;
+}
+@media (max-width: 1100px) {
+  .type-556 .content .cmenu .navselect:first-child ul li .title a,
+  .type-556 .content .cmenu .navselect:last-child ul li .title a {
+    font-size: 10px;
+  }
+}
+@media (max-width: 705px) {
+  .type-556 .content .cmenu {
+    display: inline-block;
+  }
+  .type-556 .content .cmenu .navselect:first-child,
+  .type-556 .content .cmenu .navselect:last-child {
+    width: 100%;
+    text-align: center;
+  }
+  .type-556 .content .cmenu .navselect:first-child ul li,
+  .type-556 .content .cmenu .navselect:last-child ul li {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 705px) {
+  .type-556 .clogo {
+    height: 150px;
+    position: relative;
+  }
+  .type-556 .clogo .cart {
+    width: 40%;
+    position: absolute;
+    left: 0;
+    top: 70px;
+  }
+  .type-556 .clogo .image {
+    width: 100%;
+  }
+  .type-556 .clogo .search {
+    width: 40%;
+    position: absolute;
+    right: 0;
+    top: 70px;
+  }
+}
