@@ -1,0 +1,140 @@
+.type-1605 {
+  margin-top: 500px;
+  margin-bottom: 500px;
+}
+.type-1605 .content {
+  width: 100%;
+  height: 465px;
+  background-image: url(../images/background_1605.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.type-1605 .content .container .row .col-sm-5 .number {
+  width: 100%;
+  height: 191px;
+  position: absolute;
+  top: 137px;
+}
+.type-1605 .content .container .row .col-sm-5 .number .numbercontent {
+  width: 140px;
+  height: 140px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  float: right;
+  overflow: hidden;
+  top: 50%;
+  position: absolute;
+  transform: translate(0%,-50%);
+  right: 27px;
+  color: #fff;
+}
+.type-1605 .content .container .row .col-sm-5 .number .numbercontent h3 {
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+.type-1605 .content .container .row .col-sm-7 .context {
+  width: 100%;
+  max-width: 500px;
+  height: 191px;
+  position: absolute;
+  top: 137px;
+}
+.type-1605 .content .container .row .col-sm-7 .context .contextcontent h3 {
+  font-size: 18px;
+  font-family: "Oswald";
+  color: #fff;
+  letter-spacing: 4px;
+  margin: 0;
+}
+.type-1605 .content .container .row .col-sm-7 .context .contextcontent h2 {
+  font-family: "Oswald";
+  color: #fff;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 36px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+.type-1605 .content .container .row .col-sm-7 .context .contextcontent p {
+  font-size: 14px;
+  color: #fff;
+  line-height: 22px;
+  margin-bottom: 24px;
+}
+.type-1605 .content .container .row .col-sm-7 .context .contextcontent a {
+  display: block;
+  padding: 0 22px;
+  background-color: #fab502;
+  text-decoration: none;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.type-1605 .content .container .row .col-sm-7 .context .contextcontent a:hover {
+  animation: zoom 1.2s infinite;
+}
+.type-1605 .content:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+}
+@media (max-width: 768px) {
+  .type-1605 .content .container .row .col-sm-5 .number {
+    top: 0px;
+  }
+  .type-1605 .content .container .row .col-sm-5 .number .numbercontent {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .type-1605 .content .container .row .col-sm-7 .context {
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%,50%);
+  }
+  .type-1605 .content .container .row .col-sm-7 .context .contextcontent {
+    max-width: 100%;
+    text-align: center;
+  }
+  .type-1605 .content .container .row .col-sm-7 .context .contextcontent a {
+    margin: 0 auto;
+  }
+}
+@keyframes zoom {
+  0% {
+    transform: scale(0.9);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
